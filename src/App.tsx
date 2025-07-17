@@ -69,7 +69,7 @@ function App() {
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">Payment Center</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">Gullak Payment Center</h1>
           <p className="text-gray-600">Secure payments made simple</p>
         </div>
 
@@ -79,7 +79,7 @@ function App() {
             <UserProfile user={user} />
             
             <div className="bg-white rounded-2xl shadow-xl p-6">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Make a Payment</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Make a Payment for Good luck</h2>
               
               <PaymentMethods 
                 selectedMethod={selectedPaymentMethod}
